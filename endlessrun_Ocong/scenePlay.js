@@ -79,10 +79,10 @@ var scenePlay = new Phaser.Class({
 
     //COSTUM FUNCTION
     this.gameOver = function () {
-      let highScore = localStorage["highscore"] || 0;
-      if (myScene.scene > highScore) {
-        localStorage["highScore"] = myScene.score;
-      }
+      let highscore = localStorage["highscore"] || 0;
+if (myScene.score > highscore) {
+  localStorage["highscore"] = myScene.score;
+}
       myScene.scene.start("sceneMenu");
     };
 
