@@ -177,22 +177,22 @@ var sceneMenu = new Phaser.Class({
     //menambahkan variabel penanda apakah tombol sedang diklik atau tidak
     var btnClicked = false;
 
-    mummy = this.add.sprite(1024 / 2, 768 - 170, "sps_mummy");
-    mummy.setDepth(10);
-    mummy.setScale(3);
-    this.anims.create({
-      key: "walk",
-      frames: this.anims.generateFrameNumbers("sps_mummy", {
-        start: 0,
-        end: 17,
-      }),
-      frameRate: 16,
-    });
-    // const sprite = this.add
-    //   .sprite(570, 768 / 2 + 150, "sps_mummy")
-    //   .setScale(4)
-    //   .setDepth(10);
-    mummy.play({ key: "walk", repeat: -1 });
+    // mummy = this.add.sprite(1024 / 2, 768 - 170, "sps_mummy");
+    // mummy.setDepth(10);
+    // mummy.setScale(3);
+    // this.anims.create({
+    //   key: "walk",
+    //   frames: this.anims.generateFrameNumbers("sps_mummy", {
+    //     start: 0,
+    //     end: 17,
+    //   }),
+    //   frameRate: 16,
+    // });
+    // // const sprite = this.add
+    // //   .sprite(570, 768 / 2 + 150, "sps_mummy")
+    // //   .setScale(4)
+    // //   .setDepth(10);
+    // mummy.play({ key: "walk", repeat: -1 });
   },
 
   // //dari chtgpt
